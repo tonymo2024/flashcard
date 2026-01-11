@@ -1,0 +1,180 @@
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:2: Warning: A newer version of com.android.application than 8.2.0 is available: 8.13.2 [GradleDependency]
+agp = "8.2.0"
+      ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:6: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.8.4 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:6: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.8.4 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:6: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.8.4 [GradleDependency]
+room = "2.6.1"
+       ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:7: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.2 is available: 2.10.0 [GradleDependency]
+lifecycle = "2.6.2"
+            ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:7: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.6.2 is available: 2.10.0 [GradleDependency]
+lifecycle = "2.6.2"
+            ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:8: Warning: A newer version of androidx.activity:activity-compose than 1.8.1 is available: 1.12.2 [GradleDependency]
+activityCompose = "1.8.1"
+                  ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:9: Warning: A newer version of androidx.compose:compose-bom than 2023.10.01 is available: 2025.12.01 [GradleDependency]
+composeBom = "2023.10.01"
+             ~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:10: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.5 is available: 2.9.6 [GradleDependency]
+navigationCompose = "2.7.5"
+                    ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:11: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.12.0"
+          ~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:13: Warning: A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.5.2 [GradleDependency]
+camera = "1.3.1"
+         ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:13: Warning: A newer version of androidx.camera:camera-core than 1.3.1 is available: 1.5.2 [GradleDependency]
+camera = "1.3.1"
+         ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:13: Warning: A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.5.2 [GradleDependency]
+camera = "1.3.1"
+         ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:13: Warning: A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.5.2 [GradleDependency]
+camera = "1.3.1"
+         ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:15: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:16: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/gradle/libs.versions.toml:36: Warning: A newer version of androidx.hilt:hilt-navigation-compose than 1.1.0 is available: 1.3.0 [GradleDependency]
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.1.0" }
+                                                                                                 ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 26. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:4: Warning: The resource R.color.colorPrimaryVariant appears to be unused [UnusedResources]
+    <color name="colorPrimaryVariant">#3700B3</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:5: Warning: The resource R.color.colorSecondary appears to be unused [UnusedResources]
+    <color name="colorSecondary">#625B71</color>
+           ~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:6: Warning: The resource R.color.colorSecondaryVariant appears to be unused [UnusedResources]
+    <color name="colorSecondaryVariant">#018786</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:8: Warning: The resource R.color.colorSurface appears to be unused [UnusedResources]
+    <color name="colorSurface">#FFFBFF</color>
+           ~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:9: Warning: The resource R.color.colorError appears to be unused [UnusedResources]
+    <color name="colorError">#BA1A1A</color>
+           ~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:10: Warning: The resource R.color.colorOnPrimary appears to be unused [UnusedResources]
+    <color name="colorOnPrimary">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:11: Warning: The resource R.color.colorOnSecondary appears to be unused [UnusedResources]
+    <color name="colorOnSecondary">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:12: Warning: The resource R.color.colorOnBackground appears to be unused [UnusedResources]
+    <color name="colorOnBackground">#1C1B1E</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:13: Warning: The resource R.color.colorOnSurface appears to be unused [UnusedResources]
+    <color name="colorOnSurface">#1C1B1E</color>
+           ~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/colors.xml:14: Warning: The resource R.color.colorOnError appears to be unused [UnusedResources]
+    <color name="colorOnError">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:3: Warning: The resource R.string.welcome_message appears to be unused [UnusedResources]
+    <string name="welcome_message">Welcome to Flashcard Kids!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:4: Warning: The resource R.string.add_card appears to be unused [UnusedResources]
+    <string name="add_card">Add Card</string>
+            ~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:5: Warning: The resource R.string.add_deck appears to be unused [UnusedResources]
+    <string name="add_deck">Add Deck</string>
+            ~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:6: Warning: The resource R.string.study_deck appears to be unused [UnusedResources]
+    <string name="study_deck">Study Deck</string>
+            ~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:7: Warning: The resource R.string.progress appears to be unused [UnusedResources]
+    <string name="progress">Progress</string>
+            ~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:8: Warning: The resource R.string.no_decks_available appears to be unused [UnusedResources]
+    <string name="no_decks_available">No decks available. Please add a deck.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:9: Warning: The resource R.string.no_cards_in_deck appears to be unused [UnusedResources]
+    <string name="no_cards_in_deck">No cards in this deck. Please add cards.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:10: Warning: The resource R.string.card_flipped appears to be unused [UnusedResources]
+    <string name="card_flipped">Card Flipped!</string>
+            ~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:11: Warning: The resource R.string.audio_playback_error appears to be unused [UnusedResources]
+    <string name="audio_playback_error">Error playing audio. Please try again.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:12: Warning: The resource R.string.image_upload_error appears to be unused [UnusedResources]
+    <string name="image_upload_error">Error uploading image. Please try again.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:13: Warning: The resource R.string.camera_access_error appears to be unused [UnusedResources]
+    <string name="camera_access_error">Camera access is required to take pictures.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:14: Warning: The resource R.string.permission_denied appears to be unused [UnusedResources]
+    <string name="permission_denied">Permission denied. Please enable permissions in settings.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:15: Warning: The resource R.string.progress_saved appears to be unused [UnusedResources]
+    <string name="progress_saved">Progress saved successfully!</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:16: Warning: The resource R.string.deck_created appears to be unused [UnusedResources]
+    <string name="deck_created">Deck created successfully!</string>
+            ~~~~~~~~~~~~~~~~~~~
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/values/strings.xml:17: Warning: The resource R.string.card_added appears to be unused [UnusedResources]
+    <string name="card_added">Card added successfully!</string>
+            ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/Users/zhifengmo/Documents/flashcard/flashcard-kids/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+0 errors, 45 warnings
