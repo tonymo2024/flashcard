@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flashcard Kids</string>
+    <string name="welcome_message">Welcome to Flashcard Kids!</string>
+    <string name="add_card">Add Card</string>
+    <string name="add_deck">Add Deck</string>
+    <string name="study_deck">Study Deck</string>
+    <string name="progress">Progress</string>
+    <string name="no_decks_available">No decks available. Please add a deck.</string>
+    <string name="no_cards_in_deck">No cards in this deck. Please add cards.</string>
+    <string name="card_flipped">Card Flipped!</string>
+    <string name="audio_playback_error">Error playing audio. Please try again.</string>
+    <string name="image_upload_error">Error uploading image. Please try again.</string>
+    <string name="camera_access_error">Camera access is required to take pictures.</string>
+    <string name="permission_denied">Permission denied. Please enable permissions in settings.</string>
+    <string name="progress_saved">Progress saved successfully!</string>
+    <string name="deck_created">Deck created successfully!</string>
+    <string name="card_added">Card added successfully!</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#FFFBFF</color>
+    <color name="colorError">#BA1A1A</color>
+    <color name="colorOnBackground">#1C1B1E</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnSurface">#1C1B1E</color>
+    <color name="colorPrimary">#6750A4</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#625B71</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorSurface">#FFFBFF</color>
+    <string name="add_card">Add Card</string>
+    <string name="add_deck">Add Deck</string>
+    <string name="app_name">Flashcard Kids</string>
+    <string name="audio_playback_error">Error playing audio. Please try again.</string>
+    <string name="camera_access_error">Camera access is required to take pictures.</string>
+    <string name="card_added">Card added successfully!</string>
+    <string name="card_flipped">Card Flipped!</string>
+    <string name="deck_created">Deck created successfully!</string>
+    <string name="image_upload_error">Error uploading image. Please try again.</string>
+    <string name="no_cards_in_deck">No cards in this deck. Please add cards.</string>
+    <string name="no_decks_available">No decks available. Please add a deck.</string>
+    <string name="permission_denied">Permission denied. Please enable permissions in settings.</string>
+    <string name="progress">Progress</string>
+    <string name="progress_saved">Progress saved successfully!</string>
+    <string name="study_deck">Study Deck</string>
+    <string name="welcome_message">Welcome to Flashcard Kids!</string>
+    <style name="Theme.FlashcardKids" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+</resources>

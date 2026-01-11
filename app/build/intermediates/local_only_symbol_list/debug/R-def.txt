@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color colorBackground
+color colorError
+color colorOnBackground
+color colorOnError
+color colorOnPrimary
+color colorOnSecondary
+color colorOnSurface
+color colorPrimary
+color colorPrimaryVariant
+color colorSecondary
+color colorSecondaryVariant
+color colorSurface
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add_card
+string add_deck
+string app_name
+string audio_playback_error
+string camera_access_error
+string card_added
+string card_flipped
+string deck_created
+string image_upload_error
+string no_cards_in_deck
+string no_decks_available
+string permission_denied
+string progress
+string progress_saved
+string study_deck
+string welcome_message
+style Theme.FlashcardKids
+xml backup_rules
+xml data_extraction_rules
+xml file_paths
